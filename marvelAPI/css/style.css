@@ -1,0 +1,79 @@
+
+img.img-thumbnail {
+  width: 80%;
+  height: 80%;
+}
+
+body {
+  background-color: #fff; /* Establece el color de fondo de la página en blanco */
+}
+
+/* Reglas de estilo para las imágenes de los botones */
+.boton-imagen {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+/* Reglas de estilo para los títulos de los botones */
+figcaption {
+  font-size: 24px;
+}
+
+
+button {
+  background-color: #4CAF50; /* Color de fondo del botón */
+  border: none;
+  color: white; /* Color del texto del botón */
+  padding: 15px 32px; /* Espacio alrededor del texto del botón */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px; /* Redondeo de bordes del botón */
+}
+
+button:hover {
+  background-color: #3e8e41; /* Cambio de color al pasar el mouse sobre el botón */
+}
+
+#series, #comics, #personajes, #historias {
+  display: block;
+  margin: 0 auto; /* Centrado horizontal de los botones */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.imagen-principal {
+  width: 100%;
+  max-width: 600px;
+}
+
+.botones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.boton-imagen {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+}
