@@ -1,7 +1,7 @@
 //historias
 const marvel = {
   render: () => {
-    const urlAPI = 'https://gateway.marvel.com:443/v1/public/stories?ts=1&apikey=07ebebd3f780dca8ffa3760e7a1a41f5&hash=dcf4e728034739a335af4e6076fa0b53';
+    const urlAPI = 'https://gateway.marvel.com:443/v1/public/stories/comics?apikey=07ebebd3f780dca8ffa3760e7a1a41f5&hash=dcf4e728034739a335af4e6076fa0b53';
     const container = document.querySelector('#marvel-row');
     let contentHTML = '';
     fetch(urlAPI)
